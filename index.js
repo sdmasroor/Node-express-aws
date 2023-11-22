@@ -25,7 +25,7 @@ app.use((req, res, next) => {
     next(error);
 });
 
-const PORT = 3000;
+const PORT = 3001;
 mongoose.connect("mongodb+srv://sachin:02112003@mycluster.vpmrumy.mongodb.net/crud-app?retryWrites=true&w=majority")
 .then(()=>{
     console.log("database connected");
